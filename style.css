@@ -1,3 +1,74 @@
+/* =========================
+   GOTHAM FONT FAMILY
+   ========================= */
+
+/* Gotham Thin */
+@font-face {
+  font-family: 'Gotham';
+  src: url('../assets/fonts/Gotham-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Gotham Light */
+@font-face {
+  font-family: 'Gotham';
+  src: url('../assets/fonts/Gotham-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Gotham Medium (TTF) */
+@font-face {
+  font-family: 'Gotham';
+  src: url('../assets/fonts/GothamMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Gotham Bold */
+@font-face {
+  font-family: 'Gotham';
+  src: url('../assets/fonts/GothamBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================
+   GOTHAM ROUNDED
+   (separate family)
+   ========================= */
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url('../assets/fonts/GothamRnd-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================
+   MYRIAD PRO
+   ========================= */
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../assets/fonts/Myriad-Pro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+  /* font-family: 'Gotham Rounded', sans-serif; */
+
+  body {
+  font-family: 'Gotham', Arial, sans-serif;
+  font-weight: 300;
+}
+
 * {
   box-sizing: border-box;
 }
