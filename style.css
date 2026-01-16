@@ -456,7 +456,7 @@ p,
 
 .membership-content {
   position: absolute;
-  left: 5%;
+  left: 19%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
@@ -563,7 +563,7 @@ p,
 
 .members-content {
   position: absolute;
-  right: 5%;
+  right: 19%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
@@ -659,7 +659,7 @@ p,
 
 .tier-wrap {
   position: absolute;
-  left: 5%;
+  left: 19%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
@@ -755,7 +755,7 @@ p,
 
 .platinum-wrap {
   position: absolute;
-  right: 5%;
+  right: 19%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
@@ -821,8 +821,9 @@ p,
   font-size: 1.2rem;
 }
 
-/* alister foooter  */
+/* alister   */
 .alister-section .alister-title {
+  padding: 20px;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -884,7 +885,7 @@ p,
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("images/img8.png"); /* replace with your image path */
+  background-image: url("images/img8.png"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -986,10 +987,10 @@ p,
 }
 
 .footer-bottom {
-  background: #0d0d0d;
+  background: #212529;
   padding: 25px 0;
   margin-top: 50px;
-  border-top: 1px solid #333;
+  border-top: 1px solid #212529;
 }
 
 .footer-bottom-links {
