@@ -112,90 +112,7 @@ p,
   font-size: clamp(14px, 2vw, 18px);
 }
 
-@media (max-width: 768px) {
-  /* HERO */
-  .hero-section {
-    height: auto;
-    padding: 120px 0 80px;
-  }
 
-  .hero-content {
-    padding: 0;
-  }
-
-  .hero-text {
-    text-align: center;
-  }
-
-  /* ALL IMAGE SECTIONS */
-  .qualified-section,
-  .membership-section,
-  .members-section,
-  .tier-section,
-  .platinum-section {
-    min-height: auto;
-    padding: 100px 0;
-  }
-
-  /* REMOVE ABSOLUTE */
-  .qualified-content,
-  .membership-content,
-  .members-content,
-  .tier-wrap,
-  .platinum-wrap {
-    position: relative;
-    top: auto;
-    left: auto;
-    right: auto;
-    transform: none;
-    max-width: 100%;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  /* LISTS CENTER */
-  .details-list li,
-  .detail-list li,
-  .tier-list li,
-  .platinum-list li {
-    padding-left: 0;
-    text-align: center;
-  }
-
-  .details-list li::before,
-  .detail-list li::before,
-  .tier-list li::before,
-  .platinum-list li::before {
-    display: none;
-  }
-
-  /* UPLOAD SECTION */
-  .upload-section {
-    height: auto;
-    padding: 100px 20px;
-  }
-
-  .upload-section-content {
-    position: relative;
-    padding-top: 0;
-  }
-
-  /* INNER CIRCLE */
-  .inner-circle-title {
-    font-size: 1.4rem;
-    letter-spacing: 3px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .qualified-content,
-  .membership-content,
-  .members-content,
-  .tier-wrap,
-  .platinum-wrap {
-    max-width: 70%;
-  }
-}
 
 /* logo  */
 .navbar-logo {
@@ -886,7 +803,7 @@ p,
   position: relative;
 }
 
-.footer::before {
+/* .footer::before {
   content: "";
   position: absolute;
   top: 0;
@@ -900,7 +817,7 @@ p,
   );
   border-radius: 50%;
   filter: blur(80px);
-}
+} */
 
 .footer-logo {
   max-width: 130px;
@@ -970,8 +887,9 @@ p,
 .footer-bottom-links li {
   display: inline-block;
     border-right: 1px solid #515151;
-    padding-right: 10px;
+    padding-right: 10px;line-height: 10px;
 }
+.footer-bottom-links li:last-child{border-right: 0px;}
 
 .footer-bottom-links a {
   color: #999;
@@ -1009,4 +927,137 @@ p,
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M5 12h14m-7-7l7 7-7 7'/%3E%3C/svg%3E")
     no-repeat center;
   mask-size: contain;
+}
+@media (max-width: 767px) {
+    .hero-text h1{font-size: 32px;}
+    .hero-text h2 {font-size: 15px;margin-bottom: 10px;}
+    .hero-text p {font-size: 13px;font-weight: 100;letter-spacing: 1px;line-height: 23px;}
+  /* HERO */
+  .hero-section {
+    height: auto;
+    padding: 120px 0 30px;background-position: 80% center;height: 70vh;
+  }
+  .loyalty-section h2{font-size: 30px;margin-bottom: 10px;}
+  .loyalty-section p{font-size: 17px;line-height: 28px;margin: 0 auto 1rem;}
+  .btn-explore{font-size: 12px;border-radius: 5px;}
+  section {padding: 30px 0px;}
+  .qualified-content h2{font-size: 26px;}
+  
+.qualified-content p {font-size: 15px;}
+.upload-section-content h1{position: absolute;top: 20px;font-size: 10px;}
+.membership-title, .members-title{font-size: 22px;}
+.membership-type, .members-type{font-size: 40px;margin-bottom: 5px;}
+.subtitle{font-size: 16px;margin-bottom: 15px;}
+.details-title, .details-list li, .members-details, .inner-circle-subtitle{font-size: 15px;}
+.alister-section .alister-title{font-size: 30px;}
+.alister-section .accordion-body, .alister-section .terms-box li{font-size: 13px;}
+.alister-section .accordion-button{font-size: 14px;font-weight: 400;padding: 12px;}
+.inner-circle-title{font-size: 30px;}
+.inner-circle-section{height: auto;min-height: 100%;}
+.inner-circle-subtitle{margin-bottom: 0px;letter-spacing:0}
+.footer{padding: 30px 0 0;}
+.footer-logo{}
+.footer-bottom{margin-top: 0px;}
+.footer-bottom-links{gap: 5px;}
+.footer-bottom-links a{font-size: 7px;}
+.footer-bottom-links li{padding-right: 5px;}
+
+ 
+
+  .hero-text {
+    text-align: center;
+        background: #00000026;
+        backdrop-filter: blur(5px);
+        padding: 8px;border-radius: 7px
+  }
+
+  /* ALL IMAGE SECTIONS */
+  .qualified-section,
+  .membership-section,
+  .members-section,
+  .tier-section,
+  .platinum-section {
+    min-height: auto; 
+  }
+
+  /* REMOVE ABSOLUTE */
+  .qualified-content,
+  .membership-content,
+  .members-content,
+  .tier-wrap,
+  .platinum-wrap {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    transform: none;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* LISTS CENTER */
+  .details-list li,
+  .detail-list li,
+  .tier-list li,
+  .platinum-list li {
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  /* .details-list li::before,
+  .detail-list li::before,
+  .tier-list li::before,
+  .platinum-list li::before {
+    display: none;
+  } */
+
+  /* UPLOAD SECTION */
+  .upload-section {
+    height: auto;
+    padding: 110px 20px;
+  }
+
+  .upload-section-content { 
+    padding-top: 0;
+  }
+
+  /* INNER CIRCLE */
+  .inner-circle-title {
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+  }
+  .qualified-content h2 br, .subtitle br, .details-list li br{display: none;}
+  .inner-circle-section::before{background-position:80% center;}
+  .footer-links li {
+    margin-bottom: 4px;
+}
+.newsletter-link, .footer-bottom-links{justify-content:center}
+} 
+@media (min-width: 768px) and (max-width: 991px){
+    .qualified-content{padding: 0 50px;}
+    .loyalty-section h2{font-size: 42px;margin-bottom: 10px;}
+    .loyalty-section p{font-size: 19px;line-height: 28px;margin-bottom: 20px;}
+  .qualified-content h2 br, .subtitle br, .details-list li br{display: none;}
+  .upload-section-content h1 {font-size: 16px;line-height: 26px;}
+  .membership-title, .members-title{font-size: 26px;}
+.membership-type, .members-type{font-size: 48px;margin-bottom: 5px;}
+.subtitle{font-size: 18px;margin-bottom: 15px;}
+.details-title, .details-list li, .members-details, .inner-circle-subtitle{font-size: 17px;}
+.alister-section .alister-title{font-size: 32px;}
+.inner-circle-section::before{background-position:80% center;}.footer-links li {margin-bottom: 4px;}
+.footer-description br{display: none;}
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .qualified-content{padding: 0 50px;}
+    .loyalty-section h2{font-size: 42px;margin-bottom: 10px;}
+    .loyalty-section p{font-size: 19px;line-height: 28px;margin-bottom: 20px;}
+  .qualified-content h2 br, .subtitle br, .details-list li br{display: none;}
+  .upload-section-content h1 {font-size: 16px;line-height: 26px;}
+  .membership-title, .members-title{font-size: 26px;}
+.membership-type, .members-type{font-size: 48px;margin-bottom: 5px;}
+.subtitle{font-size: 18px;margin-bottom: 15px;}
+.details-title, .details-list li, .members-details, .inner-circle-subtitle{font-size: 17px;}
+.alister-section .alister-title{font-size: 36px;}
+  .inner-circle-section::before{background-position:80% center;}
 }
