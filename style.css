@@ -127,6 +127,12 @@ p,
   }
 }
 
+/* logo  */
+.navbar-logo {
+  height: 40px;
+  width: auto;
+} 
+
 /* Background Image Layer */
 .hero-section::before {
   content: "";
